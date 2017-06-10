@@ -43,6 +43,7 @@ This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed 
 * neuroshare.org (http://neuroshare.sourceforge.net/index.shtml)
 
 ## DOI
+[![DOI](https://zenodo.org/badge/93948996.svg)](https://zenodo.org/badge/latestdoi/93948996)
 
 ## Versioning
 We use [SemVer](http://semver.org/) for versioning.
