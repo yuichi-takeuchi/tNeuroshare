@@ -8,7 +8,7 @@ Igor Pro GUI for importing any neurophysiology data in neuroshare format.
 * Neuroshare.XOP (http://www.nips.ac.jp/huinfo/documents/neuroshare/index.html)
 * Neuroshare-compliant DLL (http://neuroshare.sourceforge.net/DLLLinks.shtml)
 * tUtility (https://github.com/yuichi-takeuchi/tUtility)
-* SetWindowExt.XOP (http://fermi.uchicago.edu/freeware/LoomisWood/SetWindowExt.shtml)
+* SetWindowExt.XOP (https://github.com/yuichi-takeuchi/SetWindowExt)
 
 This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed to work in Igor Pro 6.1 or later.
 
@@ -24,7 +24,7 @@ This code has been tested in Igor Pro version 6.3.7.2. for Windows and supposed 
 * Click "tNeuroshare Initialize" in Initialize submenu of the tNeuroshare menu.
 * Neuroshare control panel (nsControlPanel) will appear.
 
-### How to use 
+### How to use
 1. Get full path to your source file (eg. xxx.smr for CED Spike2 data file) by clicking "GetPath" button on the control panel.
 2. Specify the number of EntityID by "Entity" setvar control on the control panel.
 3. Get file information by clicking "FileInfo" button on File tab of the control panel.
@@ -53,8 +53,6 @@ We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
 * **Yuichi Takeuchi PhD** - *Initial work* - [GitHub](https://github.com/yuichi-takeuchi)
-* Affiliation: Department of Physiology, University of Szeged, Hungary
-* E-mail: takeuchi.yuichi@med.u-szeged.hu
 
 ## License
 This project is licensed under the MIT License.
@@ -66,5 +64,5 @@ This project is licensed under the MIT License.
 
 ## References
 tNeuroshare has been used for the following works:
-
-* Takeuchi Y, Osaki H, Yagasaki Y, Katayama Y, Miyata M (2017) Afferent Fiber Remodeling in the Somatosensory Thalamus of Mice as a Neural Basis of Somatotopic Reorganization in the Brain and Ectopic Mechanical Hypersensitivity after Peripheral Sensory Nerve Injury. eNeuro 4:e0345-0316.
+- Takeuchi Y, Osaki H, Yagasaki Y, Katayama Y, Miyata M (2017) Afferent Fiber Remodeling in the Somatosensory Thalamus of Mice as a Neural Basis of Somatotopic Reorganization in the Brain and Ectopic Mechanical Hypersensitivity after Peripheral Sensory Nerve Injury. eNeuro 4: e0345-0316.
+- Nagumo Y, Ueta Y, Nakayama H, Osaki H, Takeuchi Y, Uesaka N, Kano M, Miyata M (2020) Tonic GABAergic inhibition is essential for nerve injury-induced afferent remodeling in the somatosensory thalamus and associated ectopic sensations. Cell Rep 31: 107797.
